@@ -40,6 +40,8 @@ Number Cross consists of an M x N grid, so that the sum of the black square labe
     gcc -c -o numberCross.o numberCross.c
     gcc -o num numberCross.o
     $ ./num numbers
+* If you want to delete the object file and the executable file
+    $ make clean
     
 # Files
 * https://github.com/kimyouyoung/DiscreteMath_HW1/blob/master/numberCross.c - source code about **Number Cross**
