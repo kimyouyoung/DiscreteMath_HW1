@@ -37,11 +37,11 @@ Number Cross consists of an M x N grid, so that the sum of the black square labe
       
 # Makefile
     $ make
-    * gcc -c -o numberCross.o numberCross.c
-    * gcc -o num numberCross.o
+    gcc -c -o numberCross.o numberCross.c
+    gcc -o num numberCross.o
     $ ./num numbers
     
 # Files
-* https://github.com/kimyouyoung/DiscreteMath_HW1/blob/master/numberCross.c - C source code about **Number Cross**
+* https://github.com/kimyouyoung/DiscreteMath_HW1/blob/master/numberCross.c - source code about **Number Cross**
 * https://github.com/kimyouyoung/DiscreteMath_HW1/blob/master/numbers - Input File
 * https://github.com/kimyouyoung/DiscreteMath_HW1/blob/master/Makefile - Build Script : Makefile
