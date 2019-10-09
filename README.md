@@ -1,6 +1,6 @@
 # DiscreteMath_HW1
 #### 21800147 Kim YouYoung
-=====================
+
 # Number Cross
 Number Cross consists of an M x N grid, so that the sum of the black square labels matches the label of the column and the sum of the white square labels matches the label of the row.
 ### Input : There are two conditions for input file.
