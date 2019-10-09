@@ -10,7 +10,7 @@ Number Cross consists of an M x N grid, so that the sum of the black square labe
 * All square labels shall be not less than 1 and not more than 9.
 #### Build & Execute(+input file)
       $ gcc numberCross.c -o num
-      $ ./num numbers
+      $ ./num < numbers
 #### Input File(numbers)
       20 23 30 29 34 6 9 21 19
       8 2 1 8 1 3 5 7 6 18
@@ -39,7 +39,7 @@ Number Cross consists of an M x N grid, so that the sum of the black square labe
     $ make
     gcc -c -o numberCross.o numberCross.c
     gcc -o num numberCross.o
-    $ ./num numbers
+    $ ./num < numbers
     
 * If you want to delete the object file and the executable file
 
