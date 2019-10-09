@@ -9,29 +9,20 @@ int main(int argc, char* argv[]){
     char str[500];
     int n = 0;
     int i = 0, j = 0;
-    
 
-    FILE* fp = fopen(argv[1], "r");
-
-    while(!feof(fp)){
-        width = n;
-        n = 0;
-        fgets(str, sizeof(str), fp);
-
-        char *ptr = strtok(str, " ");
-        num[height][n++] = atoi(ptr);
-
-        while(ptr != NULL){
-            ptr = strtok(NULL, " ");
-            if(ptr != NULL){
-                num[height][n++] = atoi(ptr);
-            }
+    while(!feof(stdin)){
+        scanf("%s", str);
+        if(strcmp(str, " ") == 0)
+            continue;
+        else if(getchar() == '\n'){
+            num[height][n++] = atoi(str);
+            height++;
+            width = n;
+            n = 0;
+        }else{
+            num[height][n++] = atoi(str);
         }
-        height++;
     }
-    height = height - 1;
-
-    fclose(fp);
 
     for(i = 0; i < height; i++){
         for(j = 0; j < width; j++){
@@ -125,7 +116,6 @@ int main(int argc, char* argv[]){
         printf("\n");
     }
 
-    pclose(z3);
 
 
     return 0;
