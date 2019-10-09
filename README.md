@@ -9,8 +9,8 @@ Number Cross consists of an M x N grid, so that the sum of the black square labe
 * The first of column and the end of the row indicate the sum of the black square labels and the sum of the white square labels, respectively.
 * All square labels shall be not less than 1 and not more than 9.
 #### Build & Execute(+input file)
-      gcc numberCross.c -o num
-      ./num numbers
+      $ gcc numberCross.c -o num
+      $ ./num numbers
 #### Input File(numbers)
       20 23 30 29 34 6 9 21 19
       8 2 1 8 1 3 5 7 6 18
